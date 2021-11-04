@@ -8,7 +8,7 @@ the area under the curve (AUC) score.
 
 It is necessary to have the dataset in the current working directory (cwd).
 
-The dataset should be organized as follow:
+The dataset should be organized as follows:
     
     data>
         test>
