@@ -10,7 +10,7 @@ It is necessary to have the dataset in the current working directory (cwd).
 
 The dataset should be organized as follow:
     
-    data_first_classifier>
+    data>
         test>
              no_vesicles
              vesicles
@@ -38,7 +38,7 @@ transform = transforms.Compose(
      transforms.ToTensor(),
      transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
 testing_dataset = datasets.ImageFolder(root=os.path.join(
-    'data_first_classifier', 'test'), transform=transform)
+    'data', 'test'), transform=transform)
 test_loader = torch.utils.data.DataLoader(dataset=testing_dataset,
                                           batch_size=100, shuffle=True)
 
