@@ -6,7 +6,8 @@ Created on Fri Feb 21 16:01:48 2020
 Calculate the receiver operating characteristic curve (ROC) and
 the area under the curve (AUC) score.
 
-It is necessary to have the dataset in the current working directory (cwd).
+It is necessary to have the dataset in the current working directory (cwd), 
+and to get the model.pth file as described in the README file.
 
 The dataset should be organized as follows:
     
